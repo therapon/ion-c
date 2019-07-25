@@ -24,7 +24,7 @@ target_include_directories(ion
         ${CMAKE_CURRENT_SOURCE_DIR}/../../decNumber/include
         )
 
-target_link_libraries(ion -static ionc_static ion_events_static docopt_s)
+target_link_libraries(ion ionc_static ion_events_static docopt_s)
 
 
 install(TARGETS
