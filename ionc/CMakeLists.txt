@@ -80,8 +80,6 @@ set(INSTALL_CONFIGDIR ${CMAKE_INSTALL_LIBDIR}/cmake/IonC)
 install(TARGETS
             ionc
             ionc_static
-            decNumber
-            decNumber_static
         EXPORT
             IonCTargets
         LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
