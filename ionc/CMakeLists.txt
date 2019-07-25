@@ -67,7 +67,7 @@ target_include_directories(objlib
 
 if (MSVC)
     target_link_libraries(ionc decNumber)
-    target_link_libraries(ionc_static decNumber_static)
+    # target_link_libraries(ionc_static decNumber_static)
 else()
     # Unix requires linking against lib m explicitly.
     target_link_libraries(ionc decNumber m)
